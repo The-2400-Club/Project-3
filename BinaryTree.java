@@ -69,7 +69,7 @@ private void postorderTraverse(BinaryNode<T> node)
    {
       postorderTraverse(node.getLeftChild());
       postorderTraverse(node.getRightChild());
-      System.out.println(node);
+      System.out.println(node.getData());
    }
 }
 
