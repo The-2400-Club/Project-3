@@ -36,18 +36,42 @@ public class BinaryTree<T> implements BinaryTreeInterface<T>
                                (BinaryTree<T>)rightTree);
    } // end setTree
 
-	private void initializeTree(T rootData, BinaryTree<T> leftTree,
-	                                        BinaryTree<T> rightTree)
-	{
-      // < FIRST DRAFT - See Segments 25.4 - 25.7 for improvements. >
-      root = new BinaryNode<T>(rootData);
-      
-      if (leftTree != null)
-         root.setLeftChild(leftTree.root);
-      
-      if (rightTree != null)
+	private void initializeTree(T rootData, BinaryTree<T> leftTree, BinaryTree<T> rightTree)
+{
+   root = new BinaryNode<>(rootData);
+
+   if ((leftTree != null) && !leftTree.isEmpty())
+      root.setLeftChild(leftTree.root);
+
+   if ((rightTree != null) && !rightTree.isEmpty())
+   {
+      if (rightTree != leftTree)
          root.setRightChild(rightTree.root);
-	} // end initializeTree
+      else
+         root.setRightChild(rightTree.root.copy());
+   } // end if
+
+   if ((leftTree != null) && (leftTree != this))
+      leftTree.clear();
+
+   if ((rightTree != null) && (rightTree != this))
+      rightTree.clear();
+} // end initializeTree
+
+public void postorderTraverse()
+{
+   postorderTraverse(root);
+}
+
+private void postorderTraverse(BinaryNode<T> node)
+{
+   if(node != null)
+   {
+      postorderTraverse(node.getLeftChild());
+      postorderTraverse(node.getRightChild());
+      System.out.println(node);
+   }
+}
 
 /* Implementations of setRootData, getRootData, getHeight, getNumberOfNodes,
    isEmpty, clear, and the methods specified in TreeIteratorInterface are here.
