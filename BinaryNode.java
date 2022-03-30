@@ -114,4 +114,15 @@ class BinaryNode<T>
          newRoot.setRightChild(rightChild.copy());
       return newRoot;
    } // end copy
+
+   public void postorderTraverse_binaryNodeMethod()
+   {
+      if(this != null)
+      {
+         postorderTraverse(this.getLeftChild());
+         postorderTraverse(this.getRightChild());
+         System.out.println(this.getData());
+      }
+   }
+
 } // end BinaryNode
