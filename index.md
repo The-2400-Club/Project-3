@@ -1,16 +1,16 @@
 # Project Directory
-[Link](https://github.com/The-2400-Club/Project-3)
+[Directory](https://github.com/The-2400-Club/Project-3)
 
 By: Jonathan Anz, Xavier Cisneros, James Contreras
 
 ## Files
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryNode.java)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTree.java)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTreeInterface.java)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/DriverBT.java)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/EmptyTreeException.java)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/README.md)
--[Link](https://github.com/The-2400-Club/Project-3/blob/main/TreeInterface.java)
+-[BinaryNode.java](https://github.com/The-2400-Club/Project-3/blob/main/BinaryNode.java)
+-[BinaryTree.java](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTree.java)
+-[BinaryTreeInterface.java](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTreeInterface.java)
+-[DriverBT.java](https://github.com/The-2400-Club/Project-3/blob/main/DriverBT.java)
+-[EmptyTreeException.java](https://github.com/The-2400-Club/Project-3/blob/main/EmptyTreeException.java)
+-[README.md](https://github.com/The-2400-Club/Project-3/blob/main/README.md)
+-[TreeInterface.java](https://github.com/The-2400-Club/Project-3/blob/main/TreeInterface.java)
 
 ```
 
