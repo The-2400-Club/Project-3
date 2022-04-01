@@ -1,29 +1,17 @@
-## Welcome to GitHub Pages
+# Project Directory
+[Link](https://github.com/The-2400-Club/Project-3)
 
-You can use the [editor on GitHub](https://github.com/The-2400-Club/Project-3/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+By: Jonathan Anz, Xavier Cisneros, James Contreras
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Files
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryNode.java)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTree.java)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/BinaryTreeInterface.java)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/DriverBT.java)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/EmptyTreeException.java)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/README.md)
+-[Link](https://github.com/The-2400-Club/Project-3/blob/main/TreeInterface.java)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
